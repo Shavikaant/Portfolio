@@ -7,18 +7,18 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="bg-black text-white min-h-screen font-sans">
+  <div>
     <!-- Hero Section -->
-    <header class="text-center py-12 bg-gradient-to-r from-black to-red-800">
-      <h1 class="text-4xl font-bold mb-4">Hi, I’m Kapil Rawar</h1>
-      <p class="text-lg mb-6">Programmer | Designer | Fitness Enthusiast</p>
-      <button class="btn-explore">Explore My Work</button>
+    <header class="hero">
+      <h1>Hi, I’m Kapil Rawar</h1>
+      <p>Programmer | Designer | Fitness Enthusiast</p>
+      <button>Explore My Work</button>
     </header>
 
     <!-- About Me Section -->
-    <section class="p-8 bg-gray-900">
-      <h2 class="text-3xl font-semibold text-yellow-500 mb-4">About Me</h2>
-      <p class="text-base text-gray-300">
+    <section class="about-me">
+      <h2>About Me</h2>
+      <p>
         Passionate about crafting digital solutions, I specialize in React, Node.js, and UI/UX
         design. From astrology projects to fitness-driven innovations, I blend creativity and
         logic to build impactful applications.
@@ -26,9 +26,9 @@
     </section>
 
     <!-- Skills Section -->
-    <section class="p-8">
-      <h2 class="text-3xl font-semibold text-yellow-500 mb-4">Skills</h2>
-      <ul class="list-disc list-inside text-gray-300">
+    <section class="skills">
+      <h2>Skills</h2>
+      <ul>
         <li>Programming: React, JavaScript, Node.js, Express</li>
         <li>Design: UI/UX, Figma, Creative Color Palettes</li>
         <li>Other: Project Management, Teamwork, Leadership</li>
@@ -36,34 +36,28 @@
     </section>
 
     <!-- Projects Section -->
-    <section class="p-8 bg-gray-900">
-      <h2 class="text-3xl font-semibold text-yellow-500 mb-4">Projects</h2>
-      <div class="grid">
+    <section class="projects">
+      <h2>Projects</h2>
+      <div class="project-cards">
         <div class="card">
-          <h3 class="text-xl font-bold text-white mb-2">Astrology Website</h3>
-          <p class="text-gray-400">
-            A saffron-themed React-based website using Astro API for accurate horoscope readings.
-          </p>
+          <h3>Astrology Website</h3>
+          <p>A saffron-themed React-based website using Astro API for accurate horoscope readings.</p>
         </div>
         <div class="card">
-          <h3 class="text-xl font-bold text-white mb-2">Smart Parking System</h3>
-          <p class="text-gray-400">
-            Animated login/registration with an intuitive dashboard for selecting parking slots.
-          </p>
+          <h3>Smart Parking System</h3>
+          <p>Animated login/registration with an intuitive dashboard for selecting parking slots.</p>
         </div>
         <div class="card">
-          <h3 class="text-xl font-bold text-white mb-2">Netflix Clone</h3>
-          <p class="text-gray-400">
-            A React Vite project with multi-profile management and a sleek UI.
-          </p>
+          <h3>Netflix Clone</h3>
+          <p>A React Vite project with multi-profile management and a sleek UI.</p>
         </div>
       </div>
     </section>
 
     <!-- Fitness Journey Section -->
-    <section class="p-8">
-      <h2 class="text-3xl font-semibold text-yellow-500 mb-4">Fitness Journey</h2>
-      <p class="text-gray-300">
+    <section class="fitness-journey">
+      <h2>Fitness Journey</h2>
+      <p>
         Dedicated to fitness and helping others achieve their goals, I’ve developed a gym
         business idea for athletes and achieved personal milestones like improving my leg
         workouts and strength training.
@@ -71,31 +65,19 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="p-8 bg-gray-900">
-      <h2 class="text-3xl font-semibold text-yellow-500 mb-4">Contact Me</h2>
+    <section class="contact">
+      <h2>Contact Me</h2>
       <form class="contact-form">
-        <input
-          type="text"
-          placeholder="Your Name"
-          class="input-field"
-        />
-        <input
-          type="email"
-          placeholder="Your Email"
-          class="input-field"
-        />
-        <textarea
-          placeholder="Your Message"
-          class="input-field"
-          rows="4"
-        ></textarea>
-        <button class="btn-explore">Send Message</button>
+        <input type="text" placeholder="Your Name" class="input-field" />
+        <input type="email" placeholder="Your Email" class="input-field" />
+        <textarea placeholder="Your Message" class="input-field" rows="4"></textarea>
+        <button type="submit">Send Message</button>
       </form>
     </section>
 
     <!-- Footer -->
-    <footer class="text-center py-6 bg-black">
-      <p class="text-gray-500">© 2025 Kapil Rawar. All rights reserved.</p>
+    <footer class="footer">
+      <p>© 2025 Kapil Rawar. All rights reserved.</p>
     </footer>
   </div>
   <script src="script.js"></script>
