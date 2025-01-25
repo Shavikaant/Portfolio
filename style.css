@@ -123,6 +123,9 @@ h3 {
   margin-bottom: 1.5rem;
   color: #ffbc00;
 }
+.projects h2 ::placeholder{
+  color:#ffbc00 ;
+}
 
 .project-cards {
   display: flex;
