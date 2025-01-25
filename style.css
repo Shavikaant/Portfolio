@@ -56,18 +56,22 @@ h3 {
 }
 
 .hero button {
-  background-color: #ffbc00;
-  color: #fff;
-  padding: 15px 30px;
-  border-radius: 50px;
+  margin-top: 20px;
+  padding: 12px 30px;
+  background: linear-gradient(135deg, #ffd700, #b8a308);
+  color: #0b090a;
   border: none;
-  font-size: 1.125rem;
+  border-radius: 50px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  font-size: 1rem;
+  font-weight: 500;
+  box-shadow: 0 4px 10px rgba(255, 215, 0, 0.5);
+  transition: all 0.3s ease-in-out;
 }
 
 .hero button:hover {
-  background-color: #ff9933;
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(255, 215, 0, 0.7);
 }
 
 .hero-image img {
