@@ -3,38 +3,101 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kapil's Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Kapil Rawar's Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="header">
-    <h1 class="animate-text">Hi, I'm <span>Kapil Rawar</span></h1>
-    <p class="subtitle">Web Developer | Designer | Programmer</p>
-    <a href="#projects" class="btn">View My Work</a>
-  </header>
+  <div class="bg-black text-white min-h-screen font-sans">
+    <!-- Hero Section -->
+    <header class="text-center py-12 bg-gradient-to-r from-black to-red-800">
+      <h1 class="text-4xl font-bold mb-4">Hi, I’m Kapil Rawar</h1>
+      <p class="text-lg mb-6">Programmer | Designer | Fitness Enthusiast</p>
+      <button class="btn-explore">Explore My Work</button>
+    </header>
 
-  <section id="about" class="about">
-    <h2>About Me</h2>
-    <p>I am a passionate programmer and designer with a love for creating stunning web experiences.</p>
-  </section>
+    <!-- About Me Section -->
+    <section class="p-8 bg-gray-900">
+      <h2 class="text-3xl font-semibold text-yellow-500 mb-4">About Me</h2>
+      <p class="text-base text-gray-300">
+        Passionate about crafting digital solutions, I specialize in React, Node.js, and UI/UX
+        design. From astrology projects to fitness-driven innovations, I blend creativity and
+        logic to build impactful applications.
+      </p>
+    </section>
 
-  <section id="projects" class="projects">
-    <h2>Projects</h2>
-    <div class="project-card">
-      <h3>Smart Parking System</h3>
-      <p>A modern app to manage parking slots with an interactive UI.</p>
-    </div>
-    <div class="project-card">
-      <h3>Astrology Website</h3>
-      <p>A sleek website providing horoscope readings and zodiac analysis.</p>
-    </div>
-    <!-- Add more projects -->
-  </section>
+    <!-- Skills Section -->
+    <section class="p-8">
+      <h2 class="text-3xl font-semibold text-yellow-500 mb-4">Skills</h2>
+      <ul class="list-disc list-inside text-gray-300">
+        <li>Programming: React, JavaScript, Node.js, Express</li>
+        <li>Design: UI/UX, Figma, Creative Color Palettes</li>
+        <li>Other: Project Management, Teamwork, Leadership</li>
+      </ul>
+    </section>
 
-  <footer class="footer">
-    <p>© 2024 Kapil Rawar. All rights reserved.</p>
-  </footer>
+    <!-- Projects Section -->
+    <section class="p-8 bg-gray-900">
+      <h2 class="text-3xl font-semibold text-yellow-500 mb-4">Projects</h2>
+      <div class="grid">
+        <div class="card">
+          <h3 class="text-xl font-bold text-white mb-2">Astrology Website</h3>
+          <p class="text-gray-400">
+            A saffron-themed React-based website using Astro API for accurate horoscope readings.
+          </p>
+        </div>
+        <div class="card">
+          <h3 class="text-xl font-bold text-white mb-2">Smart Parking System</h3>
+          <p class="text-gray-400">
+            Animated login/registration with an intuitive dashboard for selecting parking slots.
+          </p>
+        </div>
+        <div class="card">
+          <h3 class="text-xl font-bold text-white mb-2">Netflix Clone</h3>
+          <p class="text-gray-400">
+            A React Vite project with multi-profile management and a sleek UI.
+          </p>
+        </div>
+      </div>
+    </section>
 
+    <!-- Fitness Journey Section -->
+    <section class="p-8">
+      <h2 class="text-3xl font-semibold text-yellow-500 mb-4">Fitness Journey</h2>
+      <p class="text-gray-300">
+        Dedicated to fitness and helping others achieve their goals, I’ve developed a gym
+        business idea for athletes and achieved personal milestones like improving my leg
+        workouts and strength training.
+      </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="p-8 bg-gray-900">
+      <h2 class="text-3xl font-semibold text-yellow-500 mb-4">Contact Me</h2>
+      <form class="contact-form">
+        <input
+          type="text"
+          placeholder="Your Name"
+          class="input-field"
+        />
+        <input
+          type="email"
+          placeholder="Your Email"
+          class="input-field"
+        />
+        <textarea
+          placeholder="Your Message"
+          class="input-field"
+          rows="4"
+        ></textarea>
+        <button class="btn-explore">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-6 bg-black">
+      <p class="text-gray-500">© 2025 Kapil Rawar. All rights reserved.</p>
+    </footer>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
