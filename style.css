@@ -218,3 +218,71 @@ body {
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem 2rem;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .hero-image img {
+    max-width: 200px;
+  }
+
+  .about-me {
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem 2rem;
+  }
+
+  .about-me-content {
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .skills ul li {
+    font-size: 1rem;
+  }
+
+  .projects .project-cards {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .fitness-journey, .contact {
+    padding: 3rem 2rem;
+  }
+
+  .footer {
+    font-size: 0.875rem;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 2.25rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .card h3 {
+    font-size: 1.25rem;
+  }
+
+  .card p {
+    font-size: 0.875rem;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}
